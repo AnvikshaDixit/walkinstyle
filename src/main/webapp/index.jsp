@@ -27,13 +27,14 @@ h2{text-align:center;}
 
   </style>
 <body>
+<a href="index.jsp">
 <h1 style="font-family:Kristen ITC"> WALKINSTYLE </h1>
+</a>
 <nav class="navbar navbar-inverse" >
 <div class="navbar-header">
 <a href="#" class="navbar-brand"> WalkinStyle ;)... </a> 
 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
+
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
@@ -44,8 +45,8 @@ h2{text-align:center;}
 <div class="collapse navbar-collapse" id="menu">
 <div class="container-fluid">
  <ul class="nav navbar-nav">
-  <li><a href="">HOME</a></li>
-  <li><a href="#">ABOUT US</a></li>
+  <li><a href="index.jsp">HOME</a></li>
+  <li><a href="aboutus.jsp">ABOUT US</a></li>
   <li><a href="#">TODAY'S DEAL</a></li>
   <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" >GIFT CARD<span class="caret"></span></a>
      <ul class="dropdown-menu">
@@ -75,12 +76,18 @@ h2{text-align:center;}
 </ul>
 </nav>
 
+
+
+
+
+
 <div class="container">
 <div class="row ">
 <div class="col-sm-3">
-<a href="cart.jsp">
-<img src="resources/img/picture0-1.jpg" width="400" height="400" class="img-responsive img-circle">
-</a>
+<a href="cartimg.jsp">
+<img src="resources/img/picture0-1.jpg" width="400" height="400" class="img-responsive img-circle" style="text-align:center">
+</a><br>
+<br>
 <div class="bs-example">
     <div class="btn-group">
         <button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">ACCESSORIES <span class="caret"></span></button>
@@ -94,9 +101,11 @@ h2{text-align:center;}
     </div>
 </div>
 
-
-
+<br>
+<a href="cartimg.jsp">
 <img src="resources/img/clothes.png" class="img-responsive img-circle" />
+</a><br>
+<br>
 <div class="bs-example">
     <div class="btn-group">
         <button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">CLOTHING <span class="caret"></span></button>
@@ -111,8 +120,10 @@ h2{text-align:center;}
 
 <h3 style="align:left"><b> </b></h3>
 
-
+<a href="cartimg.jsp">
 <img src="resources/img/the-hundreds-footware-johnson-mid-top-1.jpg" class="img-responsive img-circle"/>
+</a><br>
+<br>
 <div class="bs-example">
     <div class="btn-group">
         <button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle"> FOOTWEAR  <span class="caret"></span></button>
@@ -188,8 +199,10 @@ h2{text-align:center;}
     <br>
 </div>
 <div class="col-sm-3">
+<a href="cartimg.jsp">
 <img src="resources/img/New-arrival-fashion-desiner-skull-purse-Ladies-PU-Wallet-Stylish-Clutch-bag-Zipper-Long-Checkbook-Free.jpg" width="400" height="400"class="img-responsive img-circle"  />
-
+</a><br>
+<br>
 <div class="bs-example">
     <div class="btn-group">
         <button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">WALLET AND PURSE<span class="caret"></span></button>
@@ -202,10 +215,11 @@ h2{text-align:center;}
     </div>
 </div>
 
-
-
+<br>
+<a href="cartimg.jsp">
 <img src="resources/img/p9.jpg" class="img-responsive img-circle" />
-
+</a><br>
+<br>
 <div class="bs-example">
     <div class="btn-group">
         <button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">MOBILE COVERS<span class="caret"></span></button>
@@ -222,9 +236,10 @@ h2{text-align:center;}
 
 
 <h3 style="align:center"> </h3>
-
+<a href="cartimg.jsp">
 <img src="resources/img/cosmetics.jpg" width="400" height="400"class="img-responsive img-circle"  />
-
+</a><br>
+<br>
 <div class="bs-example">
     <div class="btn-group">
         <button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">COSMETICS <span class="caret"></span></button>
@@ -248,11 +263,11 @@ h2{text-align:center;}
 <div class="container">
 <div class="row">
 <div class="col-sm-3">
-<div class="panel panel-success ">
+<div class="panel panel-danger ">
 <div class="panel-heading">
 <br><h3><b><u>SALMAN KHAN</u><b></h3>
 </div>
-<div class="panel-body bg-success" >
+<div class="panel-body bg-danger" >
 <p><img src="resources/img/0198439cd949ecc32a159f42d18eed68.jpg" class="img-responsive img-thumbnail" width="400" height"600" style="align:center" /><br>
 His fans go crazy in theatres when he takes off his shirt and it turns out to be one of the selling points of his movies...
 WHAT HE WEARS ACTUALLY BECOMES FASHION ;)
@@ -289,11 +304,11 @@ It’s possible that for the last couple of weeks you weren’t just crushing on
  </div>
 </div>
 <div class="col-sm-3">
-<div class="panel panel-success ">
+<div class="panel panel-info ">
 <div class="panel-heading">
 <br><h4><b><u>PRIYANKA CHOPRA</u><b></h4>
 </div>
-<div class="panel-body bg-success" >
+<div class="panel-body bg-info" >
 <p><img src="resources/img/priyanka-chopra-on-her-new-role-as-a-host-for-khatron-ke-khiladi1.jpg" class="img-responsive img-thumbnail" width="400" height"600" style="align:center" /><br>
 She's an actress and former Miss World. Is it any wonder that she always looks flawless?....An Amazing actress with an Amazing dressing style.....Inspiration for many girls and Stole heart of many guys ....A true Beauty :*
 </p>
