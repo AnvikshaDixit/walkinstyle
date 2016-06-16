@@ -14,7 +14,7 @@ body{text-align:center}
 h1{texr-align:left}
 </style>
 <div>
-<a href="index.jsp">
+<a href="index">
 <h1 style="font-family:Kristen ITC"> WALKINSTYLE </h1>
 </a>
 
@@ -33,8 +33,8 @@ h1{texr-align:left}
 <div class="collapse navbar-collapse" id="menu">
 <div class="container-fluid">
  <ul class="nav navbar-nav">
-  <li><a href="index.jsp">HOME</a></li>
-  <li><a href="aboutus.jsp">ABOUT US</a></li>
+  <li><a href="index">HOME</a></li>
+  <li><a href="aboutus">ABOUT US</a></li>
   <li><a href="#">TODAY'S DEAL</a></li>
   <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" >GIFT CARD<span class="caret"></span></a>
      <ul class="dropdown-menu">
@@ -58,8 +58,8 @@ h1{texr-align:left}
 
  </ul>
 <ul class="nav navbar-nav navbar-right">
- <li><a href="signup.jsp"><span class="glyphicon glyphicon-user"></span>   SIGN UP</a></li>
-  <li><a href="login.jsp"><span class="glyphicon glyphicon-log-in"></span>  LOGIN</a></li>
+ <li><a href="signup"><span class="glyphicon glyphicon-user"></span>   SIGN UP</a></li>
+  <li><a href="login"><span class="glyphicon glyphicon-log-in"></span>  LOGIN</a></li>
 
 </ul>
 </nav>

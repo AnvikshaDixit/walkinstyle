@@ -27,7 +27,7 @@ h2{text-align:center;}
 
   </style>
 <body>
-<a href="index.jsp">
+<a href="index">
 <h1 style="font-family:Kristen ITC"> WALKINSTYLE </h1>
 </a>
 <nav class="navbar navbar-inverse" >
@@ -45,8 +45,8 @@ h2{text-align:center;}
 <div class="collapse navbar-collapse" id="menu">
 <div class="container-fluid">
  <ul class="nav navbar-nav">
-  <li><a href="index.jsp">HOME</a></li>
-  <li><a href="aboutus.jsp">ABOUT US</a></li>
+  <li><a href="index">HOME</a></li>
+  <li><a href="aboutus">ABOUT US</a></li>
   <li><a href="#">TODAY'S DEAL</a></li>
   <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" >GIFT CARD<span class="caret"></span></a>
      <ul class="dropdown-menu">
@@ -71,7 +71,7 @@ h2{text-align:center;}
  </ul>
 <ul class="nav navbar-nav navbar-right">
  <li><a href="signup"><span class="glyphicon glyphicon-user"></span>   SIGN UP</a></li>
-  <li><a href="login.jsp"><span class="glyphicon glyphicon-log-in"></span>  LOGIN</a></li>
+  <li><a href="login"><span class="glyphicon glyphicon-log-in"></span>  LOGIN</a></li>
 
 </ul>
 </nav>
@@ -84,7 +84,7 @@ h2{text-align:center;}
 <div class="container">
 <div class="row ">
 <div class="col-sm-3">
-<a href="cartimg.jsp">
+<a href="cartimg">
 <img src="resources/img/picture0-1.jpg" width="400" height="400" class="img-responsive img-circle" style="text-align:center">
 </a><br>
 <br>
@@ -102,7 +102,7 @@ h2{text-align:center;}
 </div>
 
 <br>
-<a href="cartimg.jsp">
+<a href="cartimg">
 <img src="resources/img/clothes.png" class="img-responsive img-circle" />
 </a><br>
 <br>
@@ -120,7 +120,7 @@ h2{text-align:center;}
 
 <h3 style="align:left"><b> </b></h3>
 
-<a href="cartimg.jsp">
+<a href="cartimg">
 <img src="resources/img/the-hundreds-footware-johnson-mid-top-1.jpg" class="img-responsive img-circle"/>
 </a><br>
 <br>
@@ -199,7 +199,7 @@ h2{text-align:center;}
     <br>
 </div>
 <div class="col-sm-3">
-<a href="cartimg.jsp">
+<a href="cartimg">
 <img src="resources/img/New-arrival-fashion-desiner-skull-purse-Ladies-PU-Wallet-Stylish-Clutch-bag-Zipper-Long-Checkbook-Free.jpg" width="400" height="400"class="img-responsive img-circle"  />
 </a><br>
 <br>
@@ -216,7 +216,7 @@ h2{text-align:center;}
 </div>
 
 <br>
-<a href="cartimg.jsp">
+<a href="cartimg">
 <img src="resources/img/p9.jpg" class="img-responsive img-circle" />
 </a><br>
 <br>
@@ -236,7 +236,7 @@ h2{text-align:center;}
 
 
 <h3 style="align:center"> </h3>
-<a href="cartimg.jsp">
+<a href="cartimg">
 <img src="resources/img/cosmetics.jpg" width="400" height="400"class="img-responsive img-circle"  />
 </a><br>
 <br>

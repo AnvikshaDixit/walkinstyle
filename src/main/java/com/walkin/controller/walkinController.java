@@ -18,9 +18,33 @@ package com.walkin.controller;
 		{
 			return "signup";
 		}
+		@RequestMapping("/login")
+		public String login()
+		{
 		
-
+  return "login";
 
 	}
 
+		@RequestMapping("/cartimg")
+		public String cart()
+		{
+		
+  return "cartimg";
 
+	}
+		@RequestMapping("/index")
+		public String home()
+		{
+			return "index";
+					
+			
+		  }
+		@RequestMapping("/aboutus")
+		public String aboutus()
+		{
+			return "aboutus";
+					
+			
+		  }
+}
