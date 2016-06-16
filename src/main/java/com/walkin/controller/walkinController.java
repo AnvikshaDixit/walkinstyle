@@ -13,10 +13,10 @@ package com.walkin.controller;
 					
 			
 		  }
-		@RequestMapping("/walkin/aboutus")
-		public String aboutus()
+		@RequestMapping("/signup")
+		public String signup()
 		{
-			return "aboutus";
+			return "signup";
 		}
 		
 
