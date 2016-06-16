@@ -6,7 +6,7 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width , initial-state=1"/>
  <link rel="stylesheet" href="resources/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+   <script src="resources/js/jquery.min.js"></script>
   <script src="resources/js/bootstrap.min.js"></script>
 
 <style>
@@ -21,7 +21,7 @@ h1{texr-align:left}
 </div>
 <nav class="navbar navbar-inverse" >
 <div class="navbar-header">
-<a href="#" class="navbar-brand"> WalkinStyle ;)... </a> 
+<a href="#" class="navbar-brand"> WalkinStyle </a> 
 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
@@ -34,7 +34,7 @@ h1{texr-align:left}
 <div class="container-fluid">
  <ul class="nav navbar-nav">
   <li><a href="index.jsp">HOME</a></li>
-  <li><a href="#">ABOUT US</a></li>
+  <li><a href="aboutus.jsp">ABOUT US</a></li>
   <li><a href="#">TODAY'S DEAL</a></li>
   <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" >GIFT CARD<span class="caret"></span></a>
      <ul class="dropdown-menu">

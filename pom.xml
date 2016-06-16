@@ -4,5 +4,63 @@
   <artifactId>walkin</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+  <properties>
+  
+   <java.version>1.8</java.version>
+   <spring.version>4.2.5.RELEASE</spring.version>
+  
+  </properties>
+  
+   <dependencies>
+  <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-core</artifactId>
+    <version>${spring.version}</version>
+</dependency>
+
+ <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-webmvc</artifactId>
+    <version>${spring.version}</version>
+</dependency>
+
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-beans</artifactId>
+     <version>${spring.version}</version>
+</dependency>
+
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-context</artifactId>
+    <version>4.2.5.RELEASE</version>
+</dependency>
+
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>javax.servlet-api</artifactId>
+    <version>3.1.0</version>
+    <scope>provided</scope>
+</dependency>
+
+<dependency>
+    <groupId>org.webjars</groupId>
+    <artifactId>bootstrap</artifactId>
+    <version>3.3.5</version>
+</dependency>
+
+<dependency>
+    <groupId>org.webjars</groupId>
+    <artifactId>jquery</artifactId>
+    <version>2.2.4</version>
+</dependency>
+
+<dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>jstl</artifactId>
+      <version>1.2</version>
+</dependency>
+
+  </dependencies>
   <name>walkinstyle</name>
 </project>

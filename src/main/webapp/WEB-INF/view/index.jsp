@@ -3,9 +3,7 @@
 <title>Walkinstyle.com ;)</title>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width , initial-state=1"/>
- <link rel="stylesheet" href="resources/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  <script src="resources/js/bootstrap.min.js"></script>
+ <link href="webjars/bootstrap/3.3.5/css/bootstrap.min.css" ></link>
  <style>
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img
@@ -32,7 +30,7 @@ h2{text-align:center;}
 </a>
 <nav class="navbar navbar-inverse" >
 <div class="navbar-header">
-<a href="#" class="navbar-brand"> WalkinStyle ;)... </a> 
+<a href="#" class="navbar-brand"> WalkinStyle </a> 
 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
 
 <span class="icon-bar"></span>
@@ -318,4 +316,7 @@ She's an actress and former Miss World. Is it any wonder that she always looks f
 
 </div>
 </div>
+<script src="webjars/jquery/2.2.4/jquery.min.js"></script>
+<script src="webjars/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
 </html>

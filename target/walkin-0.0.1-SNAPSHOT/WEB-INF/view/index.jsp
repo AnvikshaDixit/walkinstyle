@@ -3,9 +3,7 @@
 <title>Walkinstyle.com ;)</title>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width , initial-state=1"/>
- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+ <link href="webjars/bootstrap/3.3.5/css/bootstrap.min.css" ></link>
  <style>
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img
@@ -27,13 +25,14 @@ h2{text-align:center;}
 
   </style>
 <body>
+<a href="index.jsp">
 <h1 style="font-family:Kristen ITC"> WALKINSTYLE </h1>
+</a>
 <nav class="navbar navbar-inverse" >
 <div class="navbar-header">
-<a href="#" class="navbar-brand"> WalkinStyle ;)... </a> 
+<a href="#" class="navbar-brand"> WalkinStyle </a> 
 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
+
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
@@ -44,8 +43,8 @@ h2{text-align:center;}
 <div class="collapse navbar-collapse" id="menu">
 <div class="container-fluid">
  <ul class="nav navbar-nav">
-  <li><a href="">HOME</a></li>
-  <li><a href="#">ABOUT US</a></li>
+  <li><a href="index.jsp">HOME</a></li>
+  <li><a href="aboutus.jsp">ABOUT US</a></li>
   <li><a href="#">TODAY'S DEAL</a></li>
   <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" >GIFT CARD<span class="caret"></span></a>
      <ul class="dropdown-menu">
@@ -69,16 +68,24 @@ h2{text-align:center;}
 
  </ul>
 <ul class="nav navbar-nav navbar-right">
- <li><a href="#"><span class="glyphicon glyphicon-user"></span>   SIGN UP</a></li>
-  <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>  LOGIN</a></li>
+ <li><a href="signup.jsp"><span class="glyphicon glyphicon-user"></span>   SIGN UP</a></li>
+  <li><a href="login.jsp"><span class="glyphicon glyphicon-log-in"></span>  LOGIN</a></li>
 
 </ul>
 </nav>
 
+
+
+
+
+
 <div class="container">
 <div class="row ">
 <div class="col-sm-3">
-<img src="images/picture0-1.jpg" width="400" height="400" class="img-responsive img-circle"  />
+<a href="cartimg.jsp">
+<img src="resources/img/picture0-1.jpg" width="400" height="400" class="img-responsive img-circle" style="text-align:center">
+</a><br>
+<br>
 <div class="bs-example">
     <div class="btn-group">
         <button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">ACCESSORIES <span class="caret"></span></button>
@@ -92,9 +99,11 @@ h2{text-align:center;}
     </div>
 </div>
 
-<h3><b><b></h3>
-
-<img src="images/clothes.png" class="img-responsive img-circle" />
+<br>
+<a href="cartimg.jsp">
+<img src="resources/img/clothes.png" class="img-responsive img-circle" />
+</a><br>
+<br>
 <div class="bs-example">
     <div class="btn-group">
         <button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">CLOTHING <span class="caret"></span></button>
@@ -109,8 +118,10 @@ h2{text-align:center;}
 
 <h3 style="align:left"><b> </b></h3>
 
-
-<img src="images/the-hundreds-footware-johnson-mid-top-1.jpg" class="img-responsive img-circle"/>
+<a href="cartimg.jsp">
+<img src="resources/img/the-hundreds-footware-johnson-mid-top-1.jpg" class="img-responsive img-circle"/>
+</a><br>
+<br>
 <div class="bs-example">
     <div class="btn-group">
         <button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle"> FOOTWEAR  <span class="caret"></span></button>
@@ -147,35 +158,34 @@ h2{text-align:center;}
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="images/p1.jpg" class="img-responsive img-rounded" width="400" height="400"/>
+        <img src="resources/img/p1.jpg" class="img-responsive img-rounded" width="400" height="400"/>
             </div>
 
       <div class="item">
-        <img src="images/p2.jpg" class="img-responsive img-rounded" width="400" height="400"/>
+        <img src="resources/img/p2.jpg" class="img-responsive img-rounded" width="400" height="400"/>
       </div>
     
       <div class="item">
-       <img src="images/p3.jpg" class="img-responsive img-rounded" width="400" height="400"/>
+       <img src="resources/img/p3.jpg" class="img-responsive img-rounded" width="400" height="400"/>
       </div>
 
       <div class="item">
-        <img src="images/p4.jpg" class="img-responsive img-rounded" width="400" height="400"/>
+        <img src="resources/img/p4.jpg" class="img-responsive img-rounded" width="400" height="400"/>
       </div>
       <div class="item">
-        <img src="images/p5.jpg" class="img-responsive img-rounded" width="400" height="400"/>
+        <img src="resources/img/p5.jpg" class="img-responsive img-rounded" width="400" height="400"/>
       </div>
       <div class="item">
-        <img src="images/p6.jpg" class="img-responsive img-rounded" width="400" height="400"/>
+        <img src="resources/img/p6.jpg" class="img-responsive img-rounded" width="400" height="400"/>
       </div>
  <div class="item">
-        <img src="images/p7.jpg" class="img-responsive img-rounded" width="400" height="400"/>
+        <img src="resources/img/p7.jpg" class="img-responsive img-rounded" width="400" height="400"/>
       </div>
  <div class="item">
-        <img src="images/p8.jpg" class="img-responsive img-rounded" width="400" height="400"/>
+        <img src="resources/img/p8.jpg" class="img-responsive img-rounded" width="400" height="400"/>
       </div>
     </div>
     <!-- Left and right controls -->
-    <
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
@@ -187,8 +197,10 @@ h2{text-align:center;}
     <br>
 </div>
 <div class="col-sm-3">
-<img src="images/New-arrival-fashion-desiner-skull-purse-Ladies-PU-Wallet-Stylish-Clutch-bag-Zipper-Long-Checkbook-Free.jpg" width="400" height="400"class="img-responsive img-circle"  />
-
+<a href="cartimg.jsp">
+<img src="resources/img/New-arrival-fashion-desiner-skull-purse-Ladies-PU-Wallet-Stylish-Clutch-bag-Zipper-Long-Checkbook-Free.jpg" width="400" height="400"class="img-responsive img-circle"  />
+</a><br>
+<br>
 <div class="bs-example">
     <div class="btn-group">
         <button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">WALLET AND PURSE<span class="caret"></span></button>
@@ -201,10 +213,11 @@ h2{text-align:center;}
     </div>
 </div>
 
-<h3><b><b></h3>
-
-<img src="images/p9.jpg" class="img-responsive img-circle" />
-
+<br>
+<a href="cartimg.jsp">
+<img src="resources/img/p9.jpg" class="img-responsive img-circle" />
+</a><br>
+<br>
 <div class="bs-example">
     <div class="btn-group">
         <button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">MOBILE COVERS<span class="caret"></span></button>
@@ -220,10 +233,11 @@ h2{text-align:center;}
 </div>
 
 
-<h3 style="align:center"><b> <b> </h3>
-
-<img src="images/cosmetics.jpg" width="400" height="400"class="img-responsive img-circle"  />
-
+<h3 style="align:center"> </h3>
+<a href="cartimg.jsp">
+<img src="resources/img/cosmetics.jpg" width="400" height="400"class="img-responsive img-circle"  />
+</a><br>
+<br>
 <div class="bs-example">
     <div class="btn-group">
         <button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">COSMETICS <span class="caret"></span></button>
@@ -236,7 +250,7 @@ h2{text-align:center;}
     </div>
 </div>
 
-<h3><b><b></h3>
+
 
 </div>
 </div>
@@ -247,12 +261,12 @@ h2{text-align:center;}
 <div class="container">
 <div class="row">
 <div class="col-sm-3">
-<div class="panel panel-success ">
+<div class="panel panel-danger ">
 <div class="panel-heading">
 <br><h3><b><u>SALMAN KHAN</u><b></h3>
 </div>
-<div class="panel-body bg-success" >
-<p><img src="images/0198439cd949ecc32a159f42d18eed68.jpg" class="img-responsive img-thumbnail" width="400" height"600" style="align:center" /><br>
+<div class="panel-body bg-danger" >
+<p><img src="resources/img/0198439cd949ecc32a159f42d18eed68.jpg" class="img-responsive img-thumbnail" width="400" height"600" style="align:center" /><br>
 His fans go crazy in theatres when he takes off his shirt and it turns out to be one of the selling points of his movies...
 WHAT HE WEARS ACTUALLY BECOMES FASHION ;)
 </p>
@@ -268,7 +282,7 @@ WHAT HE WEARS ACTUALLY BECOMES FASHION ;)
 </div>
 <div class="panel-body bg-info">
 
-<p><img src="images/28295-deepika-padukone-latest-stills40.jpg " class="img-responsive img-thumbnail" width="300" height"100 />
+<p><img src="resources/img/28295-deepika-padukone-latest-stills40.jpg " class="img-responsive img-thumbnail" width="300" height"100 />
 <BR>When she first burst onto the scene in 2007 with Om Shanti Om, model Deepika Padukone let her style fall in line with the widely-accepted Bollywood actress stereotype: embellished Indian wear, strong highlights in her hair and dark make-up.
 It was in 2011 that the star really came into her own and started picking silhouettes and edgy styles that suited her model good looks and poise.SHE IS FASHION SENSATION. :*
 </p>
@@ -281,19 +295,19 @@ It was in 2011 that the star really came into her own and started picking silhou
 <br><h3><b><u>RANBIR KAPOOR</u><b></h3>
 </div>
 <div class="panel-body bg-danger" >
-<p><img src="images/gq-ranbir-kapoor_0.jpg" class="img-responsive img-thumbnail" width="400" height"600" style="align:center" /><br>
+<p><img src="resources/img/gq-ranbir-kapoor_0.jpg" class="img-responsive img-thumbnail" width="400" height"600" style="align:center" /><br>
 It’s possible that for the last couple of weeks you weren’t just crushing on Ranbir Kapoor’s good looks but also giving his clothes more than a once-over. With a mix of street favourites and luxury fashion labels like Bape, Valentino and Kenzo, Kapoor has expressed his sartorial personality while doing the rounds of the Tamasha promotions.
 </p>
 </div>
  </div>
 </div>
 <div class="col-sm-3">
-<div class="panel panel-success ">
+<div class="panel panel-info ">
 <div class="panel-heading">
-<br><h4><b><u>PRIYANKA CHOPARA</u><b></h4>
+<br><h4><b><u>PRIYANKA CHOPRA</u><b></h4>
 </div>
-<div class="panel-body bg-success" >
-<p><img src="images/priyanka-chopra-on-her-new-role-as-a-host-for-khatron-ke-khiladi1.jpg" class="img-responsive img-thumbnail" width="400" height"600" style="align:center" /><br>
+<div class="panel-body bg-info" >
+<p><img src="resources/img/priyanka-chopra-on-her-new-role-as-a-host-for-khatron-ke-khiladi1.jpg" class="img-responsive img-thumbnail" width="400" height"600" style="align:center" /><br>
 She's an actress and former Miss World. Is it any wonder that she always looks flawless?....An Amazing actress with an Amazing dressing style.....Inspiration for many girls and Stole heart of many guys ....A true Beauty :*
 </p>
 </div>
@@ -302,4 +316,7 @@ She's an actress and former Miss World. Is it any wonder that she always looks f
 
 </div>
 </div>
+<script src="webjars/jquery/2.2.4/jquery.min.js"></script>
+<script src="webjars/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
 </html>
