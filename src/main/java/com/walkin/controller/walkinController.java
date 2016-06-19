@@ -8,7 +8,7 @@ package com.walkin.controller;
 	{
 		@RequestMapping("/")
 		public String hellowalkin()
-		{
+		 {
 			return "index";
 					
 			

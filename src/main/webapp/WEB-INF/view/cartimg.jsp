@@ -1,3 +1,4 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
 <head>
 <title>ZARA BLACK DRESS</title>
@@ -152,7 +153,7 @@
  
 </div>
 <div class="col-sm-6">
-    <img src="resources/img/Scoop-Long-Sleeve-Beading-Backless-Black-Evening-Dresses-.jpg"  height="600px" width = "600px" alt="WESTERN DRESS"   class="img-responsive img-rounded" >
+    <img src="<c:url value='resources/img/anu.jpg'/>"  height="600px" width = "600px" alt="WESTERN DRESS"   class="img-responsive img-rounded"/>
    </div>
 
  </div>
