@@ -92,6 +92,7 @@ text-align:left;}
 					<li><a href="index">HOME</a></li>
 					<li><a href="aboutus">ABOUT US</a></li>
 					<li><a href="#">TODAY'S DEAL</a></li>
+					<li><a href="allproducts">ALL PRODUCTS</a></li>
 					<li class="dropdown"><a href="#" class="dropdown-toggle"
 						data-toggle="dropdown">GIFT CARD<span class="caret"></span></a>
 						<ul class="dropdown-menu">

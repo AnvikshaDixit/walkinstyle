@@ -11,16 +11,23 @@
   <script src="resources/js/bootstrap.min.js"></script>
 
 <style>
+
+.submit input
+    {
+    color: #000;
+    background: #ffa20f;
+    border: 2px outset #d7b9c9
+    }
+
 .jumbotron {
     margin-bottom: 0px;
-    background-image: url(resources/img/ff9.jpg);
+    background-image: url(resources/img/f11.jpg);
     background-position: 0% 25%;
     background-size: cover;
     background-repeat: no-repeat;
     color: black;
     text-shadow: black 0.3em 0.3em 0.3em;
 }
-
 body{text-align:center}
 h1{texr-align:left}
 </style>
@@ -49,6 +56,7 @@ h1{texr-align:left}
   <li><a href="index">HOME</a></li>
   <li><a href="aboutus">ABOUT US</a></li>
   <li><a href="#">TODAY'S DEAL</a></li>
+  <li><a href="allproducts">ALL PRODUCTS</a></li>
   <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" >GIFT CARD<span class="caret"></span></a>
      <ul class="dropdown-menu">
        <li><a href="#">10% off on shopping of 3000 or more </a></li>
@@ -61,7 +69,7 @@ h1{texr-align:left}
     <ul class="dropdown-menu">
        <li><a href="#">MAIL US </a></li>
        <li><a href="#">COSTOMER CARE NUMBER</a>  </li>
-
+      
      </ul>
 
 
@@ -79,6 +87,9 @@ h1{texr-align:left}
 
 <head>
 <style>
+
+.button2 {background-color: #008CBA;} /* Blue */
+
 body
 {text-align:center}
 #container {
@@ -113,8 +124,8 @@ body
             <div class="col"><a href="#" title="Recuperar Password">Fotgot Password?</a></div>
 <br>
 <br>
-<a><input type="submit" value="LOGIN"  ></a>
-<a><input type="reset" value="RESET"></a>
+<a><input type="submit" value="LOGIN"  ></input></a>
+<a><input type="reset" value="RESET"></input></a>
 </section>
 </div1>
 </div>

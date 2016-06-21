@@ -25,6 +25,14 @@ package com.walkin.controller;
   return "login";
 
 	}
+		
+		@RequestMapping("/allproducts")
+		public String allproducts()
+		{
+		
+  return "allproducts";
+
+	}
 
 		@RequestMapping("/cartimg")
 		public String cart()
