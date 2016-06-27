@@ -15,7 +15,7 @@
 		<property name="viewClass" value="org.springframework.web.servlet.view.JstlView" />
        
         <property name="prefix">
-              <value>/WEB-INF/</value>
+              <value>/WEB-INF/view/</value>
         </property>
         <property name="suffix">
              <value>.jsp</value>

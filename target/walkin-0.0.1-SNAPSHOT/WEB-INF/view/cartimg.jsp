@@ -1,3 +1,4 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
 <head>
 <title>ZARA BLACK DRESS</title>
@@ -20,7 +21,7 @@
 </style>
 </head>
 <body >
-<a href="index.jsp">
+<a href="index">
 <h1 style="font-family:Kristen ITC"> WALKINSTYLE </h1>
 </a>
 <nav class="navbar navbar-inverse" >
@@ -37,8 +38,8 @@
 <div class="collapse navbar-collapse" id="menu">
 <div class="container-fluid">
  <ul class="nav navbar-nav">
- <li><a href="index.jsp">HOME</a></li>
-  <li><a href="aboutus.jsp">ABOUT US</a></li>
+ <li><a href="index">HOME</a></li>
+  <li><a href="aboutus">ABOUT US</a></li>
   <li><a href="#">TODAY'S DEAL</a></li>
   <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" >GIFT CARD<span class="caret"></span></a>
      <ul class="dropdown-menu">
@@ -58,8 +59,8 @@
   </ul>
  
 <ul class="nav navbar-nav navbar-right">
- <li><a href="signup.jsp"><span class="glyphicon glyphicon-user"></span>   SIGN UP</a></li>
-  <li><a href="login.jsp"><span class="glyphicon glyphicon-log-in"></span>  LOGIN</a></li>
+ <li><a href="signup"><span class="glyphicon glyphicon-user"></span>   SIGN UP</a></li>
+  <li><a href="login"><span class="glyphicon glyphicon-log-in"></span>  LOGIN</a></li>
 
 </ul>
 
@@ -152,7 +153,7 @@
  
 </div>
 <div class="col-sm-6">
-    <img src="resources/img/Scoop-Long-Sleeve-Beading-Backless-Black-Evening-Dresses-.jpg"  height="600px" width = "600px" alt="WESTERN DRESS"   class="img-responsive img-rounded" >
+    <img src="<c:url value='resources/img/anu.jpg'/>"  height="600px" width = "600px" alt="WESTERN DRESS"   class="img-responsive img-rounded"/>
    </div>
 
  </div>
