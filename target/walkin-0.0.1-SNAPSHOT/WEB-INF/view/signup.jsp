@@ -99,16 +99,14 @@ div{text-align:center;}
 <br>
 <br>
 
-<input type="text" required title="Username required" placeholder="FIRST NAME" data-icon="U">
-<input type="text" required title="Username required" placeholder="LAST NAME" data-icon="U"><br><br>
-
+<input type="text" required title="Username required" placeholder="NAME" data-icon="U">
 <div>
-<input type="text" required title="Username required" placeholder="COUNTRY" data-icon="U"><br><br>
-<input type="text" required title="Username required" placeholder="STATE" data-icon="U"><br><br>
+<br>
+<br>
 <input type="text" required title="Username required" placeholder="email address" data-icon="U"><br><br>
  <input type="password" required title="Password required" placeholder="ENTER PASSWORD" data-icon="x"><br><br>
  <input type="password" required title="Password required" placeholder="RE-ENTER PASSWORD" data-icon="x"><br><br>
- <input type="pHONE" required title="MOBILE NO. required" placeholder="MOBILE NO." data-icon="U"><br><br>
+ <input type="PHONE" required title="MOBILE NO. required" placeholder="MOBILE NO." data-icon="U"><br><br>
 </div>
 
 <br>

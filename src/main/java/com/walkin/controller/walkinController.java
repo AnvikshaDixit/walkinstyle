@@ -1,16 +1,22 @@
 package com.walkin.controller;
 
-	import javax.swing.JComboBox.KeySelectionManager;
+
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 	import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
+
+//import com.walkin.product.ProductServices;
+//import com.walkin.signup.SignUpservice;
 	
 	@Controller
 	public class walkinController
-	{
+		{
+		
+		
 		@RequestMapping("/")
 		public String hellowalkin()
 		 {
@@ -23,6 +29,7 @@ import org.springframework.web.servlet.ModelAndView;
 		{
 			return "signup";
 		}
+		
 		@RequestMapping("/login")
 		public String login()
 		{
