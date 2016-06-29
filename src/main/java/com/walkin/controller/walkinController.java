@@ -9,12 +9,18 @@ import org.springframework.stereotype.Controller;
 	import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-//import com.walkin.product.ProductServices;
-//import com.walkin.signup.SignUpservice;
+import com.walkin.product.ProductService;
+
+
+
+
+
 	
 	@Controller
 	public class walkinController
 		{
+		@Autowired
+		ProductService ps;
 		
 		
 		@RequestMapping("/")

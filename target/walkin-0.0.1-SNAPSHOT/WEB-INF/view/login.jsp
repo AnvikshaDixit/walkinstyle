@@ -11,6 +11,13 @@
   <script src="resources/js/bootstrap.min.js"></script>
 
 <style>
+input
+{
+  -moz-border-radius: 15px;
+ border-radius: 15px;
+    border:solid 1px black;
+    padding:5px;
+}
 
 .submit input
     {
@@ -21,7 +28,7 @@
 
 .jumbotron {
     margin-bottom: 0px;
-    background-image: url(resources/img/f11.jpg);
+    background-image: url(resources/img/222.jpg);
     background-position: 0% 25%;
     background-size: cover;
     background-repeat: no-repeat;

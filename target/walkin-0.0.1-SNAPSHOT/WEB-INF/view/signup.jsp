@@ -12,6 +12,14 @@
   <script src="resources/js/bootstrap.min.js"></script>
 
 <style>
+
+input
+{
+  -moz-border-radius: 15px;
+ border-radius: 15px;
+    border:solid 1px black;
+    padding:5px;
+}
 .jumbotron {
     margin-bottom: 0px;
     background-image: url(resources/img/f10.jpg);
@@ -98,24 +106,44 @@ div{text-align:center;}
 <h2 style="font-family:Mistral"><b><u>PLEASE FILL IN THE INFORMATION</u></b></h2>
 <br>
 <br>
-
-<input type="text" required title="Username required" placeholder="NAME" data-icon="U">
+<table align="center" style="font-family:Comic Sans MS">
+<tr>
+<td><h4><b>Please enter your Name:</b></h4><br><br></td>
+<td><input type="text" STYLE="color: #FFF8DC; font-family:Comic Sans MS; background-color:#000000 ;"  required title="Username required" placeholder="NAME" data-icon="U "><br><br></td>
+</tr>
 <div>
 <br>
 <br>
-<input type="text" required title="Username required" placeholder="email address" data-icon="U"><br><br>
- <input type="password" required title="Password required" placeholder="ENTER PASSWORD" data-icon="x"><br><br>
- <input type="password" required title="Password required" placeholder="RE-ENTER PASSWORD" data-icon="x"><br><br>
- <input type="PHONE" required title="MOBILE NO. required" placeholder="MOBILE NO." data-icon="U"><br><br>
+<tr>
+<td><h4><b>Please enter your email ID:</b></h4><br><br></td>
+<td><input type="text" STYLE="color: #FFF8DC; font-family:Comic Sans MS; background-color:#000000 ;"  required title="Username required" placeholder="email address" data-icon="U"><br><br></td>
+
+</tr>
+<tr>
+<td><h4><b>Please enter your Password:</b></h4><br><br></td>
+<td> <input type="password" STYLE="color: #FFF8DC; font-family:Comic Sans MS; background-color:#000000 ;"  required title="Password required" placeholder="ENTER PASSWORD" data-icon="x"><br><br></td>
+</tr>
+<tr>
+<td><h4><b>Please Re-Enter your Password:</b></h4><br><br></td>
+ <td><input type="password" STYLE="color: #FFF8DC; font-family:Comic Sans MS; background-color:#000000 ;" required title="Password required" placeholder="RE-ENTER PASSWORD" data-icon="x"><br><br></td>
+ </tr>
+ <tr>
+ <td><h4><b>Please enter your Contact no.:</b></h4><br><br></td>
+<td> <input type="PHONE" STYLE="color: #FFF8DC; font-family:Comic Sans MS; background-color:#000000 ;"  required title="MOBILE NO. required" placeholder="MOBILE NO." data-icon="U"><br><br></td>
+</tr>
 </div>
 
 <br>
-<input type="submit" value="LOGIN">
-<input type="reset" value="RESET">
+<tr>
+<td><input type="submit" STYLE="color: #FFF8DC; font-family:Comic Sans MS; background-color:#000000 ;"  value="LOGIN"></td>
+<td><input type="reset" STYLE="color: #FFF8DC; font-family:Comic Sans MS; background-color:#000000 ;"  value="RESET"></td>
+</tr>
+</table>
+
 </div>
 
+</div>
+</div>
 
-</div>
-</div>
 </body>
 </html>
