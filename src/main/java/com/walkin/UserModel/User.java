@@ -25,10 +25,12 @@ public class User implements Serializable
 	
 	private int Role = 1;
 	private boolean Active = true;
-	public int getID() {
+	public int getID() 
+	{
 		return ID;
 	}
-	public void setID(int iD) {
+	public void setID(int iD) 
+	{
 		ID = iD;
 	}
 	public String getEmail() {

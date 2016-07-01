@@ -1,6 +1,11 @@
-com\walkin\UserModel\User.class
 com\walkin\controller\WalkinController.class
-com\walkin\UserModel\UserDAOImpl.class
+com\walkin\ProductModel\ProductServiceImpl.class
+com\walkin\ProductModel\ProductDAOImpl.class
 com\walkin\UserModel\UserServiceImpl.class
-com\walkin\UserModel\UserDAO.class
+com\walkin\ProductModel\ProductDAO.class
+com\walkin\ProductModel\ProductService.class
 com\walkin\UserModel\UserService.class
+com\walkin\UserModel\User.class
+com\walkin\UserModel\UserDAOImpl.class
+com\walkin\ProductModel\Product.class
+com\walkin\UserModel\UserDAO.class
