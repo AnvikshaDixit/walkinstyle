@@ -14,59 +14,7 @@
   
   <head>
     <title>Sign up Form</title>
-</head>
-<body>
-
-<h2>Student Information</h2>
-<form:form method="POST" action="Uservalues" modelAttribute="User">
-   <table>
-    <tr>
-        <td><form:label path="username">UserName</form:label></td>
-        <td><form:input path="username" /></td>
-    </tr>
-    <tr>
-        <td><form:label path="email">Age</form:label></td>
-        <td><form:input path="email" /></td>
-    </tr>
-     <tr>
-        <td><form:label path="password">Password</form:label></td>
-        <td><form:input path="password" /></td>
-    </tr>
-    
-     <tr>
-        <td><form:label path="cPassword">Confirm-Password</form:label></td>
-        <td><form:input path="cPassword" /></td>
-    </tr>
-    
-        
-     <tr>
-        <td><form:label path="address">Address</form:label></td>
-        <td><form:input path="address" /></td>
-    </tr>
-    
-    <tr>
-        <td><form:label path="phone">Phone</form:label></td>
-        <td><form:input path="phone" /></td>
-    </tr>
-    
-    <tr>
-        <td colspan="2">
-            <input type="submit" value="Submit"/>
-        </td>
-    </tr>
-</table>  
-</form:form>
-</body>
-</html>
-  
-  
-  
-  
-  
-  
-  
-
-<!-- <style>
+    <style>
 
 input
 {
@@ -90,7 +38,9 @@ h1{text-align:left;}
 div{text-align:center;}
 
 </style>
-<div>
+    
+    
+</head>
 <a href="index">
 <h1 style="font-family:Kristen ITC"> WALKINSTYLE </h1>
 </a>
@@ -142,6 +92,64 @@ div{text-align:center;}
 </nav>
 
 
+<body background="resources/img/cool.jpg">
+<div class="container" align="center">
+<div class="row  jumbotron" style="margin:15px; padding:15 px;">
+
+<h2 style="font-family:Imprint MT Shadow ;text-align:center"><b>PLEASE ENTER THE USER DETAILS</b></h2>
+<form:form method="POST" action="Uservalues" modelAttribute="User">
+   <table>
+    <tr>
+        <td><form:label path="username" type="text" style=" font-family:Comic Sans MS;">UserName</form:label></td>
+        <td><form:input path="username"  STYLE="color: #FFF8DC; font-family:Comic Sans MS;"/></td>
+    </tr>
+    <tr>
+        <td><form:label path="email" style=" font-family:Comic Sans MS;">EMAIL ID</form:label></td>
+        <td><form:input path="email" STYLE="color: #FFF8DC; font-family:Comic Sans MS; " /></td>
+    </tr>
+     <tr>
+        <td><form:label path="password" style=" font-family:Comic Sans MS;">Password</form:label></td>
+        <td><form:input path="password" type="password" STYLE="color: #FFF8DC; font-family:Comic Sans MS; "/></td>
+    </tr>
+    
+     <tr>
+        <td><form:label path="cPassword" style=" font-family:Comic Sans MS;">Confirm-Password</form:label></td>
+        <td><form:input path="cPassword" STYLE="color: #FFF8DC; font-family:Comic Sans MS; " /></td>
+    </tr>
+    
+        
+     <tr>
+        <td><form:label path="address" style=" font-family:Comic Sans MS;">Address</form:label></td>
+        <td><form:input path="address" STYLE="color: #FFF8DC; font-family:Comic Sans MS; " /></td>
+    </tr>
+    
+    <tr>
+        <td><form:label path="phone" style=" font-family:Comic Sans MS;">Phone</form:label></td>
+        <td><form:input path="phone" STYLE="color: #FFF8DC; font-family:Comic Sans MS; " /></td>
+    </tr>
+    
+    <tr>
+        <td colspan="2">
+            <input type="submit" value="Submit"/>
+        </td>
+    </tr>
+</table>  
+</form:form>
+</div>
+</div>
+</body>
+</html>
+  
+  
+  
+  
+  
+  
+  
+
+<!-- 
+<div>
+
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>SIGN UP PAGE</title>
@@ -149,11 +157,10 @@ div{text-align:center;}
 <h1 style="font-family:Imprint MT Shadow ;text-align:center"><b>PLEASE SIGN UP</b> </h1>
 
 </head>
-<body background="resources/img/cool.jpg">
+<body >
 <br> 
 <br>
-<div class="container">
-<div class="row  jumbotron" style="margin:15px; padding:15 px;">
+
 <div class="col-sm-2" style="backgroung-color:grey">
 
 </div>
@@ -164,7 +171,7 @@ div{text-align:center;}
 <table align="center" style="font-family:Comic Sans MS">
 <tr>
 <td><h4><b>Please enter your Name:</b></h4><br><br></td>
-<td><input type="text" STYLE="color: #FFF8DC; font-family:Comic Sans MS; background-color:#000000 ;"  required title="Username required" placeholder="NAME" data-icon="U "><br><br></td>
+<td><input type="text"   required title="Username required" placeholder="NAME" data-icon="U "><br><br></td>
 </tr>
 <div>
 <br>
