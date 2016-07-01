@@ -1,4 +1,5 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
@@ -10,8 +11,62 @@
  <link rel="stylesheet" href="resources/css/bootstrap.min.css">
    <script src="resources/js/jquery.min.js"></script>
   <script src="resources/js/bootstrap.min.js"></script>
+  
+  <head>
+    <title>Sign up Form</title>
+</head>
+<body>
 
-<style>
+<h2>Student Information</h2>
+<form:form method="POST" action="Uservalues" modelAttribute="User">
+   <table>
+    <tr>
+        <td><form:label path="username">UserName</form:label></td>
+        <td><form:input path="username" /></td>
+    </tr>
+    <tr>
+        <td><form:label path="email">Age</form:label></td>
+        <td><form:input path="email" /></td>
+    </tr>
+     <tr>
+        <td><form:label path="password">Password</form:label></td>
+        <td><form:input path="password" /></td>
+    </tr>
+    
+     <tr>
+        <td><form:label path="cPassword">Confirm-Password</form:label></td>
+        <td><form:input path="cPassword" /></td>
+    </tr>
+    
+        
+     <tr>
+        <td><form:label path="address">Address</form:label></td>
+        <td><form:input path="address" /></td>
+    </tr>
+    
+    <tr>
+        <td><form:label path="phone">Phone</form:label></td>
+        <td><form:input path="phone" /></td>
+    </tr>
+    
+    <tr>
+        <td colspan="2">
+            <input type="submit" value="Submit"/>
+        </td>
+    </tr>
+</table>  
+</form:form>
+</body>
+</html>
+  
+  
+  
+  
+  
+  
+  
+
+<!-- <style>
 
 input
 {
@@ -146,4 +201,4 @@ div{text-align:center;}
 </div>
 
 </body>
-</html>
+</html> -->

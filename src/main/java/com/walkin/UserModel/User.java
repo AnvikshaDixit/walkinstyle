@@ -29,9 +29,9 @@ public class User implements Serializable
 	{
 		return ID;
 	}
-	public void setID(int iD) 
+	public void setID(int id) 
 	{
-		ID = iD;
+		ID = id;
 	}
 	public String getEmail() {
 		return Email;
