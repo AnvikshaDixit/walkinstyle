@@ -1,9 +1,6 @@
-com\walkin\signup\SignUpDaoImpl.class
-com\walkin\product\ProductDAO.class
-com\walkin\product\ProductService.class
-com\walkin\controller\walkinController.class
-com\walkin\product\Product.class
-com\walkin\product\ProductDAOImpl.class
-com\walkin\signup\SignUpDao.class
-com\walkin\product\ProductServiceImpl.class
-com\walkin\signup\Signup.class
+com\walkin\UserModel\User.class
+com\walkin\controller\WalkinController.class
+com\walkin\UserModel\UserDAOImpl.class
+com\walkin\UserModel\UserServiceImpl.class
+com\walkin\UserModel\UserDAO.class
+com\walkin\UserModel\UserService.class

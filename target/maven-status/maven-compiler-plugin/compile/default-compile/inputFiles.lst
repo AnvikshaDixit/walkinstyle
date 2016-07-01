@@ -1,9 +1,6 @@
-D:\walkin\walkin\src\main\java\com\walkin\signup\Signup.java
-D:\walkin\walkin\src\main\java\com\walkin\product\ProductDAO.java
-D:\walkin\walkin\src\main\java\com\walkin\product\ProductServiceImpl.java
-D:\walkin\walkin\src\main\java\com\walkin\product\ProductDAOImpl.java
-D:\walkin\walkin\src\main\java\com\walkin\signup\SignUpDao.java
-D:\walkin\walkin\src\main\java\com\walkin\signup\SignUpDaoImpl.java
-D:\walkin\walkin\src\main\java\com\walkin\product\Product.java
-D:\walkin\walkin\src\main\java\com\walkin\controller\walkinController.java
-D:\walkin\walkin\src\main\java\com\walkin\product\ProductService.java
+D:\walkin\walkin\src\main\java\com\walkin\UserModel\UserDAO.java
+D:\walkin\walkin\src\main\java\com\walkin\UserModel\UserDAOImpl.java
+D:\walkin\walkin\src\main\java\com\walkin\UserModel\User.java
+D:\walkin\walkin\src\main\java\com\walkin\UserModel\UserServiceImpl.java
+D:\walkin\walkin\src\main\java\com\walkin\controller\WalkinController.java
+D:\walkin\walkin\src\main\java\com\walkin\UserModel\UserService.java
