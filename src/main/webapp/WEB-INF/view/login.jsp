@@ -28,7 +28,7 @@ input
 
 .jumbotron {
     margin-bottom: 0px;
-    background-image: url(resources/img/222.jpg);
+    background-image: url(resources/img/567.jpg);
     background-position: 0% 25%;
     background-size: cover;
     background-repeat: no-repeat;
