@@ -14,6 +14,27 @@ public class Product implements Serializable
 	@Id @GeneratedValue(strategy=GenerationType.AUTO)
 	private int ProductID;
 	private String ProductName;
+	private long Price;
+	private String Manufacturer;
+	private String image;
+	public String getImage() {
+		return image;
+	}
+	public void setImage(String image) {
+		this.image = image;
+	}
+	public long getPrice() {
+		return Price;
+	}
+	public void setPrice(long price) {
+		Price = price;
+	}
+	public String getManufacturer() {
+		return Manufacturer;
+	}
+	public void setManufacturer(String manufacturer) {
+		Manufacturer = manufacturer;
+	}
 	public int getProductID() {
 		return ProductID;
 	}
@@ -25,6 +46,11 @@ public class Product implements Serializable
 	}
 	public void setProductName(String productName) {
 		ProductName = productName;
+	}
+	@Override
+	public String toString() {
+		return "{ProductID:\"" + ProductID + "\", ProductName:\"" + ProductName +"\", Price:\"" + Price
+				+ "\", Manufacturer:\"" + Manufacturer + "\", Image:\"" + image + "\"}";
 	}
 	
 }

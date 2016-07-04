@@ -122,7 +122,7 @@ th, td {
       </thead>
       <tbody>
       <tr  ng-repeat="product in products | filter:Searchtext " style=" border: 3px solid black;">
-      <td style=" border: 3px solid black;"><b>{{product.Name}}</b></td>
+      <td style=" border: 3px solid black;"><b>{{product.ProductName}}</b></td>
       <td style=" border: 3px solid black;"><b>{{product.Price}}</b></td>
         <td style=" border: 3px solid black;"><b>{{product.Manufacturer}}</b></td>
       <td style=" border: 3px solid black;"><img data-ng-src="{{product.Image}}" class="img-responsive img-rounded" width="200" height="200" /></td>

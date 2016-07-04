@@ -37,6 +37,15 @@ body{text-align:center;}
 h1{text-align:left;}
 div{text-align:center;}
 
+input {
+    
+    /* make it glow! */
+    -webkit-box-shadow: 0px 0px 4px #4195fc;
+       -moz-box-shadow: 0px 0px 4px #4195fc;
+            box-shadow: 0px 0px 4px #4195fc; /* some variation of blue for the shadow */
+
+}
+
 </style>
     
 
@@ -106,37 +115,37 @@ div{text-align:center;}
 <form:form method="POST" action="Uservalues" modelAttribute="User">
    <table cellspacing="10" align="center" style="font-family:Comic Sans MS">
     <tr>
-        <td><form:label path="username" type="text" style=" font-family:Comic Sans MS;">UserName</form:label></td>
-        <td><form:input path="username"  STYLE="color: #FFF8DC; font-family:Comic Sans MS;"/> <br><br></td>
+        <td><form:label path="username"  type="text" style=" font-family:Comic Sans MS;">NAME</form:label></td>
+        <td><form:input path="username" STYLE="color: #000000; font-family:Comic Sans MS;"/> <br><br></td>
     </tr>
     <tr>
         <td><form:label path="email" style=" font-family:Comic Sans MS;">EMAIL ID</form:label></td>
-        <td><form:input path="email" STYLE="color: #FFF8DC; font-family:Comic Sans MS; " /><br><br></td>
+        <td><form:input path="email"   STYLE="color: #000000; font-family:Comic Sans MS; " /><br><br></td>
     </tr>
      <tr>
-        <td><form:label path="password" style=" font-family:Comic Sans MS;">Password</form:label></td>
-        <td><form:input path="password" type="password" STYLE="color: #FFF8DC; font-family:Comic Sans MS; "/><br><br></td>
+        <td><form:label path="password" style=" font-family:Comic Sans MS;">PASSWORD</form:label></td>
+        <td><form:input path="password" type="password" STYLE="color: #000000; font-family:Comic Sans MS; "/><br><br></td>
     </tr>
     
      <tr>
-        <td><form:label path="cPassword" style=" font-family:Comic Sans MS;">Confirm-Password</form:label></td>
-        <td><form:input path="cPassword" STYLE="color: #FFF8DC; font-family:Comic Sans MS; " /><br><br></td>
+        <td><form:label path="cPassword" style=" font-family:Comic Sans MS;">CONFIRM-PASSWORD</form:label></td>
+        <td><form:input path="cPassword" STYLE="color: #000000; font-family:Comic Sans MS; " /><br><br></td>
     </tr>
     
         
      <tr>
-        <td><form:label path="address" style=" font-family:Comic Sans MS;">Address</form:label></td>
-        <td><form:input path="address" STYLE="color: #FFF8DC; font-family:Comic Sans MS; " /><br><br></td>
+        <td><form:label path="address" style=" font-family:Comic Sans MS;">ADDRESS</form:label></td>
+        <td><form:input path="address" STYLE="color: #000000; font-family:Comic Sans MS; " /><br><br></td>
     </tr>
     
     <tr>
-        <td><form:label path="phone" style=" font-family:Comic Sans MS;">Phone</form:label></td>
-        <td><form:input path="phone" STYLE="color: #FFF8DC; font-family:Comic Sans MS; " /><br><br></td>
+        <td><form:label path="phone" style=" font-family:Comic Sans MS;">PHONE</form:label></td>
+        <td><form:input path="phone" STYLE="color: #000000; font-family:Comic Sans MS; " /><br><br></td>
     </tr>
     
     <tr>
         <td colspan="2">
-            <input type="submit" value="Submit"/>
+            <input type="submit" STYLE="color: #FFF8DC; font-family:Comic Sans MS; background-color:#000000 ;" value="Submit"/>
         </td>
     </tr>
 </table>  

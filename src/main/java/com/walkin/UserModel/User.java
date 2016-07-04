@@ -81,5 +81,12 @@ public class User implements Serializable
 	public void setActive(boolean active) {
 		Active = active;
 	}
+	/*@Override
+	public String toString() {
+		return "{ID:" + ID + ", Email:\"" + Email + "\", Username=\"" + Username + "\", Password=" + Password
+				+ ", CPassword:" + CPassword + ", Address=" + Address + ", Phone:" + Phone + ", Role:" + Role
+				+ ", Active:" + Active + "}";
+	}*/
+	
 	
 }

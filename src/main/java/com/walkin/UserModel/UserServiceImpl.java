@@ -1,5 +1,7 @@
 package com.walkin.UserModel;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -18,7 +20,23 @@ public class UserServiceImpl implements UserService
 	@Transactional
 	public void delete(User u)
 	{
+       udao.delete(u);
+	}
+     @Transactional
+	public List<User> list() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
+     @Transactional
+	public User get(User u) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+    @Transactional
+	public boolean isValidUser(String id, String name, boolean isAdmin) {
+		// TODO Auto-generated method stub
+		return false;
 	}
 	
 }
