@@ -28,7 +28,7 @@ input
 
 .jumbotron {
     margin-bottom: 0px;
-    background-image: url(resources/img/222.jpg);
+    background-image: url(resources/img/567.jpg);
     background-position: 0% 25%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -37,6 +37,17 @@ input
 }
 body{text-align:center}
 h1{texr-align:left}
+
+input {
+    
+    /* make it glow! */
+    -webkit-box-shadow: 0px 0px 4px #4195fc;
+       -moz-box-shadow: 0px 0px 4px #4195fc;
+            box-shadow: 0px 0px 4px #4195fc; /* some variation of blue for the shadow */
+
+}
+
+
 </style>
 <a href="index.jsp">
 <h1 style="font-family:Kristen ITC"> WALKINSTYLE </h1>
@@ -124,15 +135,15 @@ body
 <br>
 <section class="login">
 <form action="#" method="post" enctype="application/x-www-form-urlencoded">
-<input type="text" required title="Username required" placeholder="Username" data-icon="U"><br><br><br>
-        <input type="password" required title="Password required" placeholder="Password" data-icon="x"><br><br>
+<input type="text" required title="Username required" placeholder="Username" data-icon="U" STYLE="color: #FFF8DC; font-family:Comic Sans MS; background-color:#000000 ;"><br><br><br>
+        <input type="password" required title="Password required" placeholder="Password" data-icon="x" STYLE="color: #FFF8DC; font-family:Comic Sans MS; background-color:#000000 ;" ><br><br>
         <div class="olvido">
-        	<div class="col"><a href="#" title="Ver Carásteres">Register</a></div>
-            <div class="col"><a href="#" title="Recuperar Password">Fotgot Password?</a></div>
+        	<div class="col"><a href="#" title="Ver Carásteres"><B>Register</B></a></div>
+            <div class="col"><a href="#" title="Recuperar Password"><B>Fotgot Password?</B></a></div>
 <br>
 <br>
-<a><input type="submit" value="LOGIN"  ></input></a>
-<a><input type="reset" value="RESET"></input></a>
+<a><input type="submit" value="LOGIN" STYLE="color: #FFF8DC; font-family:Comic Sans MS; background-color:#000000 ;" ></input></a>
+<a><input type="reset" STYLE="color: #FFF8DC; font-family:Comic Sans MS; background-color:#000000 ;" value="RESET"></input></a>
 </section>
 </div1>
 </div>

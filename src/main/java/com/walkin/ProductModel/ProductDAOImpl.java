@@ -14,12 +14,20 @@ public class ProductDAOImpl implements ProductDAO
 
 	public void insert(Product p) 
 	{
-		// TODO Auto-generated method stub
+		
 		sessionFactory.getCurrentSession().saveOrUpdate(p);
 	}
 
-	public List<Product> list() {
+	public List<Product> list() 
+	{
 		return sessionFactory.getCurrentSession().createQuery("from Product").list();
+	}
+
+	public void delete(Product p)
+	{
+		
+		sessionFactory.getCurrentSession().delete(p);
+		
 	}
  
 }

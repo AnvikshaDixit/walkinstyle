@@ -14,6 +14,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.walkin.ProductModel.Product;
 import com.walkin.ProductModel.ProductService;
+import com.walkin.RoleSecurity.RoleSecurityService;
 import com.walkin.UserModel.User;
 import com.walkin.UserModel.UserService;
 
@@ -26,17 +27,17 @@ public class WalkinController
 	@Autowired
 	ProductService ps;
 	
+	@Autowired
+	RoleSecurityService rss;
+	
+	
 	@RequestMapping("/")
 	public String hellowalkin()
 	{
+		rss.GenerateRole(null);
 		return "index";
 	}
 
-	/*@RequestMapping("/signup")
-	public String signup()
-	{
-		return "signup";
-	}*/
 	
 	@RequestMapping(value = "/signup", method = RequestMethod.GET)
 	   public ModelAndView Signupinfo()

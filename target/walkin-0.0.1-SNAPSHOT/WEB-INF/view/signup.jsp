@@ -14,63 +14,7 @@
   
   <head>
     <title>Sign up Form</title>
-</head>
-<body>
-
-<h2>Student Information</h2>
-<form:form method="POST" action="Uservalues" modelattribute="User">
-   <table>
-   <tr>
-        <td><form:label path="ID">UserID</form:label></td>
-        <td><form:input path="ID" /></td>
-    </tr>
-    <tr>
-        <td><form:label path="Username">UserName</form:label></td>
-        <td><form:input path="Username" /></td>
-    </tr>
-    <tr>
-        <td><form:label path="Email">Age</form:label></td>
-        <td><form:input path="Email" /></td>
-    </tr>
-     <tr>
-        <td><form:label path="Password">Password</form:label></td>
-        <td><form:input path="Password" /></td>
-    </tr>
-    
-     <tr>
-        <td><form:label path="CPassword">Confirm-Password</form:label></td>
-        <td><form:input path="CPassword" /></td>
-    </tr>
-    
-        
-     <tr>
-        <td><form:label path="Address">Address</form:label></td>
-        <td><form:input path="Address" /></td>
-    </tr>
-    
-    <tr>
-        <td><form:label path="Phone">Phone</form:label></td>
-        <td><form:input path="Phone" /></td>
-    </tr>
-    
-    <tr>
-        <td colspan="2">
-            <input type="submit" value="Submit"/>
-        </td>
-    </tr>
-</table>  
-</form:form>
-</body>
-</html>
-  
-  
-  
-  
-  
-  
-  
-
-<!-- <style>
+    <style>
 
 input
 {
@@ -93,8 +37,20 @@ body{text-align:center;}
 h1{text-align:left;}
 div{text-align:center;}
 
+input {
+    
+    /* make it glow! */
+    -webkit-box-shadow: 0px 0px 4px #4195fc;
+       -moz-box-shadow: 0px 0px 4px #4195fc;
+            box-shadow: 0px 0px 4px #4195fc; /* some variation of blue for the shadow */
+
+}
+
 </style>
-<div>
+    
+
+    
+</head>
 <a href="index">
 <h1 style="font-family:Kristen ITC"> WALKINSTYLE </h1>
 </a>
@@ -146,36 +102,97 @@ div{text-align:center;}
 </nav>
 
 
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>SIGN UP PAGE</title>
-
-<h1 style="font-family:Imprint MT Shadow ;text-align:center"><b>PLEASE SIGN UP</b> </h1>
-
-</head>
 <body background="resources/img/cool.jpg">
-<br> 
-<br>
-<div class="container">
+
+<div class="container" align="center">
 <div class="row  jumbotron" style="margin:15px; padding:15 px;">
+<h1 style="font-family:Imprint MT Shadow ;text-align:center"><b>PLEASE SIGN UP</b> </h1><br> <br>
+<h4 style="font-family:Mistral,text-align:center"><b>PLEASE ENTER THE USER DETAILS</b></h4>
 <div class="col-sm-2" style="backgroung-color:grey">
 
 </div>
 <div class="col-sm-8" style="backgroung-color:grey">
-<h2 style="font-family:Mistral"><b><u>PLEASE FILL IN THE INFORMATION</u></b></h2>
+<form:form method="POST" action="Uservalues" modelAttribute="User">
+   <table cellspacing="10" align="center" style="font-family:Comic Sans MS">
+    <tr>
+        <td><form:label path="username"  type="text" style=" font-family:Comic Sans MS;">NAME</form:label></td>
+        <td><form:input path="username" STYLE="color: #000000; font-family:Comic Sans MS;"/> <br><br></td>
+    </tr>
+    <tr>
+        <td><form:label path="email" style=" font-family:Comic Sans MS;">EMAIL ID</form:label></td>
+        <td><form:input path="email"   STYLE="color: #000000; font-family:Comic Sans MS; " /><br><br></td>
+    </tr>
+     <tr>
+        <td><form:label path="password" style=" font-family:Comic Sans MS;">PASSWORD</form:label></td>
+        <td><form:input path="password" type="password" STYLE="color: #000000; font-family:Comic Sans MS; "/><br><br></td>
+    </tr>
+    
+     <tr>
+        <td><form:label path="cPassword" style=" font-family:Comic Sans MS;">CONFIRM-PASSWORD</form:label></td>
+        <td><form:input path="cPassword" STYLE="color: #000000; font-family:Comic Sans MS; " /><br><br></td>
+    </tr>
+    
+        
+     <tr>
+        <td><form:label path="address" style=" font-family:Comic Sans MS;">ADDRESS</form:label></td>
+        <td><form:input path="address" STYLE="color: #000000; font-family:Comic Sans MS; " /><br><br></td>
+    </tr>
+    
+    <tr>
+        <td><form:label path="phone" style=" font-family:Comic Sans MS;">PHONE</form:label></td>
+        <td><form:input path="phone" STYLE="color: #000000; font-family:Comic Sans MS; " /><br><br></td>
+    </tr>
+    
+    <tr>
+        <td colspan="2">
+            <input type="submit" STYLE="color: #FFF8DC; font-family:Comic Sans MS; background-color:#000000 ;" value="Submit"/>
+        </td>
+    </tr>
+</table>  
+</form:form>
+</div>
+
+</div>
+</div>
+</body>
+</html>
+  
+  
+  
+  
+  
+  
+  
+
+<!-- 
+<div>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>SIGN UP PAGE</title>
+
+
+</head>
+<body >
+<br> 
+<br>
+
+
+
+<h2 ><b><u>PLEASE FILL IN THE INFORMATION</u></b></h2>
 <br>
 <br>
-<table align="center" style="font-family:Comic Sans MS">
+<table >
 <tr>
 <td><h4><b>Please enter your Name:</b></h4><br><br></td>
-<td><input type="text" STYLE="color: #FFF8DC; font-family:Comic Sans MS; background-color:#000000 ;"  required title="Username required" placeholder="NAME" data-icon="U "><br><br></td>
+<td><input type="text"   required title="Username required" placeholder="NAME" data-icon="U "><br><br></td>
 </tr>
 <div>
 <br>
 <br>
 <tr>
 <td><h4><b>Please enter your email ID:</b></h4><br><br></td>
-<td><input type="text" STYLE="color: #FFF8DC; font-family:Comic Sans MS; background-color:#000000 ;"  required title="Username required" placeholder="email address" data-icon="U"><br><br></td>
+<td><input type="text" STYLE="color: #FFF8DC; font-family:Comic Sans MS; background-color:#000000 ;"  required title="Username required" placeholder="email address" data-icon="U"></td>
 
 </tr>
 <tr>
