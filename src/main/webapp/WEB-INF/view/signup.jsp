@@ -14,6 +14,7 @@
   
   <head>
     <title>Sign up Form</title>
+<jsp:include page="/WEB-INF/view/head.jsp"/>
     <style>
 
 input
@@ -51,7 +52,7 @@ input {
 
     
 </head>
-<a href="index">
+<!-- <a href="index">
 <h1 style="font-family:Kristen ITC"> WALKINSTYLE </h1>
 </a>
 
@@ -101,7 +102,7 @@ input {
 </ul>
 </nav>
 
-
+ -->
 <body background="resources/img/cool.jpg">
 
 <div class="container" align="center">

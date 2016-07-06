@@ -13,7 +13,7 @@
 	
 </div>
 <head>
-
+<jsp:include page="/WEB-INF/view/head.jsp"/>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Entry of Product Details</title>
 
@@ -44,51 +44,6 @@ input
 }
 </style>
 </head>
-<nav class="navbar navbar-inverse"  >
-		<div class="navbar-header">
-			<a href="#" class="navbar-brand" style="text-color:black"> WalkinStyle </a>
-			<button type="button" class="navbar-toggle" data-toggle="collapse"
-				data-target="#menu">
-
-				<span class="icon-bar"></span> <span class="icon-bar"></span> <span
-					class="icon-bar"></span>
-
-			</button>
-
-		</div>
-	
-		<div class="collapse navbar-collapse" id="menu">
-			<div class="container-fluid">
-				<ul class="nav navbar-nav">
-					<li><a href="index">HOME</a></li>
-					<li><a href="aboutus">ABOUT US</a></li>
-					<li><a href="#">TODAY'S DEAL</a></li>
-					<li><a href="allproducts">ALL PRODUCTS</a></li>
-					<li class="dropdown"><a href="#" class="dropdown-toggle"
-						data-toggle="dropdown">GIFT CARD<span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a href="#">10% off on shopping of 3000 or more </a></li>
-							<li><a href="#">35% off on shopping of 10000 or more</a></li>
-
-						</ul></li>
-					<li class="dropdown"><a href="#" class="dropdown-toggle"
-						data-toggle="dropdown">CONTACT US<span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a href="#">MAIL US </a></li>
-							<li><a href="#">COSTOMER CARE NUMBER</a></li>
-
-						</ul></li>
-
-
-				</ul>
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="signup"><span
-							class="glyphicon glyphicon-user"></span> SIGN UP</a></li>
-					<li><a href="login"><span
-							class="glyphicon glyphicon-log-in"></span> LOGIN</a></li>
-
-				</ul>
-	</nav>
 <body background="resources/img/cool.jpg"  >
 <div class="container">
 <div class="row jumbotron"  style="margin:15px; padding:15 px;">
