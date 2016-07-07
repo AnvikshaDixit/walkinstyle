@@ -12,54 +12,8 @@
 		<h1 style="font-family: Kristen ITC; text-color:black">WALKINSTYLE</h1>
 	
 </div>
-
-<nav class="navbar navbar-inverse"  >
-		<div class="navbar-header">
-			<a href="#" class="navbar-brand" style="text-color:black"> WalkinStyle </a>
-			<button type="button" class="navbar-toggle" data-toggle="collapse"
-				data-target="#menu">
-
-				<span class="icon-bar"></span> <span class="icon-bar"></span> <span
-					class="icon-bar"></span>
-
-			</button>
-
-		</div>
-	
-		<div class="collapse navbar-collapse" id="menu">
-			<div class="container-fluid">
-				<ul class="nav navbar-nav">
-					<li><a href="index">HOME</a></li>
-					<li><a href="aboutus">ABOUT US</a></li>
-					<li><a href="#">TODAY'S DEAL</a></li>
-					<li><a href="allproducts">ALL PRODUCTS</a></li>
-					<li class="dropdown"><a href="#" class="dropdown-toggle"
-						data-toggle="dropdown">GIFT CARD<span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a href="#">10% off on shopping of 3000 or more </a></li>
-							<li><a href="#">35% off on shopping of 10000 or more</a></li>
-
-						</ul></li>
-					<li class="dropdown"><a href="#" class="dropdown-toggle"
-						data-toggle="dropdown">CONTACT US<span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a href="#">MAIL US </a></li>
-							<li><a href="#">COSTOMER CARE NUMBER</a></li>
-
-						</ul></li>
-
-
-				</ul>
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="signup"><span
-							class="glyphicon glyphicon-user"></span> SIGN UP</a></li>
-					<li><a href="login"><span
-							class="glyphicon glyphicon-log-in"></span> LOGIN</a></li>
-
-				</ul>
-	</nav>
 <head>
-
+<jsp:include page="/WEB-INF/view/head.jsp"/>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Entry of Product Details</title>
 
@@ -81,7 +35,7 @@ input
 
 .jumbotron {
     margin-bottom: 0px;
-    background-image: url(resources/img/567.jpg);
+    background-image: url(resources/img/ff5.jpg);
     background-position: 0% 25%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -93,24 +47,24 @@ input
 <body background="resources/img/cool.jpg"  >
 <div class="container">
 <div class="row jumbotron"  style="margin:15px; padding:15 px;">
-			<div class="col-sm-4">
+			<div class="col-sm-6">
 
-<img src="resources/img/121.jpg" class="img-responsive img-circle" width="600" height="600">
+<!-- <img src="resources/img/121.jpg" class="img-responsive img-circle" width="600" height="600"> -->
 
 
 </div>
 
 <div 
-class="col-sm-6"></div>
+class="col-sm-6" ></div>
 <form:form method="POST" action="Productvalues" modelAttribute="Product">
-   <table cellspacing="10" align="center" style="font-family:Comic Sans MS">
+   <table cellspacing="10" align="center" style="font-family:Comic Sans MS;color:#F70934">
         <tr>
-        <td><form:label path="productName" type="text" style=" font-family:Comic Sans MS;">PRODUCT NAME:</form:label></td>
+        <td><form:label path="productName" type="text" style=" font-family:Comic Sans MS;"><b>PRODUCT NAME:</b></form:label></td>
         <td><form:input path="productName" type="text" STYLE="color: #000000; font-family:Comic Sans MS; "/><br><br></td>
     </tr>
     
      <tr>
-        <td><form:label path="price" style=" font-family:Comic Sans MS;">PRICE</form:label></td>
+        <td><form:label path="price" style=" font-family:Comic Sans MS;"><b>PRICE</b></form:label></td>
         <td><form:input path="price" STYLE="color: #000000; font-family:Comic Sans MS; " /><br><br></td>
     </tr>
     
@@ -137,3 +91,17 @@ class="col-sm-6"></div>
 </div>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

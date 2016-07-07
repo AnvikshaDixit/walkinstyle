@@ -9,7 +9,7 @@
  <link rel="stylesheet" href="resources/css/bootstrap.min.css">
   <script src="resources/js/jquery.min.js"></script>
   <script src="resources/js/bootstrap.min.js"></script>
-
+<jsp:include page="/WEB-INF/view/head.jsp"/>
 <style>
 input
 {
@@ -49,7 +49,7 @@ input {
 
 
 </style>
-<a href="index.jsp">
+<!-- <a href="index.jsp">
 <h1 style="font-family:Kristen ITC"> WALKINSTYLE </h1>
 </a>
 
@@ -101,7 +101,7 @@ input {
   <li><a href="login"><span class="glyphicon glyphicon-log-in"></span>  LOGIN</a></li>
 
 </ul>
-</nav>
+</nav> -->
 
 <head>
 <style>

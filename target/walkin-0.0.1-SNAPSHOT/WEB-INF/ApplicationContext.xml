@@ -40,6 +40,7 @@ xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.sprin
 			<list>
 				<value>com.walkin.UserModel</value> 
 				<value>com.walkin.ProductModel</value>
+				<value>com.walkin.RoleSecurity</value>
 			</list>
 		</property>
 	</bean>	
