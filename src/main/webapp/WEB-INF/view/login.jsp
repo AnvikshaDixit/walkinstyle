@@ -1,4 +1,5 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
@@ -49,60 +50,6 @@ input {
 
 
 </style>
-<!-- <a href="index.jsp">
-<h1 style="font-family:Kristen ITC"> WALKINSTYLE </h1>
-</a>
-
-
-
-
-
-<nav class="navbar navbar-inverse" >
-<div class="navbar-header">
-<a href="#" class="navbar-brand"> WalkinStyle  </a> 
-<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-
-</button>
-
-</div>
-<div class="collapse navbar-collapse" id="menu">
-<div class="container-fluid">
- <ul class="nav navbar-nav">
-  <li><a href="index">HOME</a></li>
-  <li><a href="aboutus">ABOUT US</a></li>
-  <li><a href="#">TODAY'S DEAL</a></li>
-  <li><a href="allproducts">ALL PRODUCTS</a></li>
-  <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" >GIFT CARD<span class="caret"></span></a>
-     <ul class="dropdown-menu">
-       <li><a href="#">10% off on shopping of 3000 or more </a></li>
-       <li><a href="#">35% off on shopping of 10000 or more</a>  </li>
-
-     </ul>
-
-  </li>
-  <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">CONTACT US<span class="caret"></span></a>
-    <ul class="dropdown-menu">
-       <li><a href="#">MAIL US </a></li>
-       <li><a href="#">COSTOMER CARE NUMBER</a>  </li>
-      
-     </ul>
-
-
-
-  </li>
- 
-
- </ul>
-<ul class="nav navbar-nav navbar-right">
- <li><a href="signup"><span class="glyphicon glyphicon-user"></span>   SIGN UP</a></li>
-  <li><a href="login"><span class="glyphicon glyphicon-log-in"></span>  LOGIN</a></li>
-
-</ul>
-</nav> -->
-
 <head>
 <style>
 
@@ -134,17 +81,20 @@ body
 <body background="resources/img/cool.jpg" >
 <br>
 <section class="login">
-<form action="#" method="post" enctype="application/x-www-form-urlencoded">
-<input type="text" required title="Username required" placeholder="Username" data-icon="U" STYLE="color: #FFF8DC; font-family:Comic Sans MS; background-color:#000000 ;"><br><br><br>
-        <input type="password" required title="Password required" placeholder="Password" data-icon="x" STYLE="color: #FFF8DC; font-family:Comic Sans MS; background-color:#000000 ;" ><br><br>
-        <div class="olvido">
+<form  action="login" method="POST">
+<input path="username" name="username"  type="text"  placeholder="Username" data-icon="U" STYLE="color: #FFF8DC; font-family:Comic Sans MS; background-color:#000000 ;"/><br><br><br>
+<input path="password" name="password" type="password"  placeholder="Password" data-icon="x" STYLE="color: #FFF8DC; font-family:Comic Sans MS; background-color:#000000 ;"/ ><br><br>
+       <!--  <div class="olvido">
         	<div class="col"><a href="#" title="Ver Carásteres"><B>Register</B></a></div>
             <div class="col"><a href="#" title="Recuperar Password"><B>Fotgot Password?</B></a></div>
-<br>
+<br> -->
 <br>
 <a><input type="submit" value="LOGIN" STYLE="color: #FFF8DC; font-family:Comic Sans MS; background-color:#000000 ;" ></input></a>
 <a><input type="reset" STYLE="color: #FFF8DC; font-family:Comic Sans MS; background-color:#000000 ;" value="RESET"></input></a>
+</div>
+</form>
 </section>
+
 </div1>
 </div>
 </div>

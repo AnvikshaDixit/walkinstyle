@@ -50,7 +50,7 @@
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="signup"><span
 							class="glyphicon glyphicon-user"></span> SIGN UP</a></li>
-					<li><a href="login"><span
+					<li><a href="loginpage"><span
 							class="glyphicon glyphicon-log-in"></span> LOGIN</a></li>
 
 				</ul>

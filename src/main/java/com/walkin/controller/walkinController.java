@@ -2,11 +2,9 @@ package com.walkin.controller;
 
 import java.util.List;
 
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -87,14 +85,35 @@ public class WalkinController
 	
 	
 	
+	@RequestMapping(value = "/loginpage", method = RequestMethod.GET)
+	public String logininfo() {
+	   return "login";
+
+	}
+
+	@RequestMapping(value = "/loginpage", method = RequestMethod.POST)
+	public String logininfo1() {
+	   return "login";
+
+	}
+
+	
+	@RequestMapping(value = "/logincheck", method = RequestMethod.GET)
+	public String logincheck() {
+
+	   return "login";
+
+	}
+	
+	
 	
 	
 		
-	@RequestMapping("/login")
+	/*@RequestMapping("/login")
 	public String login()
 	{
 		return "login";
-	}
+	}*/
 	
 	
 	
