@@ -41,6 +41,13 @@
 				<prop key="hibernate.hbm2ddl.auto">update</prop>
 			</props>
 		</property>
+		<property name="packagesToScan">
+			<list>
+				<value>com.walkin.UserModel</value> 
+				<value>com.walkin.ProductModel</value>
+				<value>com.walkin.RoleSecurity</value>
+			</list>
+		</property>
 		
 	</bean>	
 	

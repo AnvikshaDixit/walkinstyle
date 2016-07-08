@@ -30,12 +30,6 @@ th, td {
     th{}
 </style>
 
-	
-	<div>
-		<h1 style="font-family: Kristen ITC; text-color:black">WALKINSTYLE</h1>
-	
-</div>
-
 </head>
 
 <script>

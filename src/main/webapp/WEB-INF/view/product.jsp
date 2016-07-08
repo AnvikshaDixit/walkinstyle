@@ -8,10 +8,7 @@
 <script src="resources/js/jquery.min.js"></script>
 <script src="resources/js/bootstrap.min.js"></script>
 <script src="resources/js/angular.min.js"></script>
-	<div>
-		<h1 style="font-family: Kristen ITC; text-color:black">WALKINSTYLE</h1>
 	
-</div>
 <head>
 <jsp:include page="/WEB-INF/view/head.jsp"/>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
