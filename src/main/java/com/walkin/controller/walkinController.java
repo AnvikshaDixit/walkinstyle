@@ -28,13 +28,16 @@ public class WalkinController
 	@Autowired
 	RoleSecurityService rss;
 	
-	
 	@RequestMapping("/")
-	public String hellowalkin()
+	public String homewalkin()
 	{
 		rss.GenerateRole(null);
-		return "index";
+		return "home";
 	}
+	
+	
+	
+	
 
 	
 	@RequestMapping(value = "/signup", method = RequestMethod.GET)

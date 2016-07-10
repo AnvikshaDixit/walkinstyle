@@ -29,7 +29,7 @@ input
 
 .jumbotron {
     margin-bottom: 0px;
-    background-image: url(resources/img/567.jpg);
+   background-image: url(resources/img/14.jpg); 
     background-position: 0% 25%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -74,7 +74,7 @@ body
 
 </div>
 
-<div class="col-sm-8">
+<div class="col-sm-8"  >
 <div1 >
 <h1 style="font-family:Imprint MT Shadow ;text-align:center"><b>LOG IN</b> </h1>
 </head>
