@@ -1,13 +1,17 @@
 package com.walkin.controller;
 
+
 import java.util.List;
 
+import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.walkin.ProductModel.Product;
@@ -52,15 +56,30 @@ public class WalkinController
 	
 	
 	@RequestMapping(value = "/Uservalues", method = RequestMethod.POST)
-	   public ModelAndView Uservalues(@ModelAttribute("User")User u) 
+	   public ModelAndView Uservalues (@Valid @ModelAttribute("User") User u,  BindingResult result ) 
 	   {
-		  us.insert(u);
-	     
-		  ModelAndView mav = new ModelAndView("signup");
+		
+		if(result.hasErrors()) 
+		{
+			System.out.println("Errors");
+			
+			ModelAndView mav = new ModelAndView("signup");
+			
+			mav.addObject("User", u);
+			
+			return mav; 
+		}
+		else
+		{	
+		  
+			 us.insert(u);
+	    		  
+		     ModelAndView mav = new ModelAndView("Success");
 	      
-		  mav.addObject("User",new User());
+		     mav.addObject("User",new User());
 	      
-		  return mav;
+		     return mav;
+		} 
 	   }
 	
 	@RequestMapping(value = "/product", method = RequestMethod.GET)
@@ -89,24 +108,35 @@ public class WalkinController
 	
 	
 	@RequestMapping(value = "/loginpage", method = RequestMethod.GET)
-	public String logininfo() {
-	   return "login";
+	public ModelAndView logininfo(@RequestParam(value = "error", required = false) String error) {
+	   
+		
+		ModelAndView model = new ModelAndView();
+		if (error != null) {
+			model.addObject("error", "Invalid username and password!");
+		}
+		model.setViewName("login");
+
+		return model;
+
+		
 
 	}
 
 	@RequestMapping(value = "/loginpage", method = RequestMethod.POST)
 	public String logininfo1() {
-	   return "login";
+		
+	    return "login";
 
 	}
 
 	
-	@RequestMapping(value = "/logincheck", method = RequestMethod.GET)
+	/*@RequestMapping(value = "/logincheck", method = RequestMethod.GET)
 	public String logincheck() {
 
 	   return "login";
 
-	}
+	}*/
 	
 	
 	

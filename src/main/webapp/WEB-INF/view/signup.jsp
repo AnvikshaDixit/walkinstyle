@@ -32,7 +32,7 @@ input
     background-repeat: no-repeat;
     color: black;
     text-shadow: black 0.3em 0.3em 0.3em;
-}
+} 
 
 body{text-align:center;}
 h1{text-align:left;}
@@ -46,17 +46,21 @@ input {
             box-shadow: 0px 0px 4px #4195fc; /* some variation of blue for the shadow */
 
 }
+.err
+{ color:#ff0000;
+ 
+}
+    
 
 </style>
     
 
-    
 </head>
 
 <body background="resources/img/cool.jpg">
 
 <div class="container" align="center">
-<div class="row  jumbotron" style="margin:15px; padding:15 px;">
+<div class="row  jumbotron " style="margin:15px; padding:15 px;">
 <h1 style="font-family:Imprint MT Shadow ;text-align:center"><b>PLEASE SIGN UP</b> </h1><br> <br>
 <h4 style="font-family:Mistral,text-align:center"><b>PLEASE ENTER THE USER DETAILS</b></h4>
 <div class="col-sm-2" style="backgroung-color:grey">
@@ -68,30 +72,36 @@ input {
     <tr>
         <td><form:label path="username"  type="text" style=" font-family:Comic Sans MS;">NAME</form:label></td>
         <td><form:input path="username" STYLE="color: #000000; font-family:Comic Sans MS;"/> <br><br></td>
+        <td><form:errors path="username" class="err" /></td>
     </tr>
     <tr>
         <td><form:label path="email" style=" font-family:Comic Sans MS;">EMAIL ID</form:label></td>
         <td><form:input path="email"   STYLE="color: #000000; font-family:Comic Sans MS; " /><br><br></td>
+        <td><form:errors path="email" class="err" /></td>
     </tr>
      <tr>
         <td><form:label path="password" style=" font-family:Comic Sans MS;">PASSWORD</form:label></td>
         <td><form:input path="password" type="password" STYLE="color: #000000; font-family:Comic Sans MS; "/><br><br></td>
+         <td><form:errors path="password" class="err"  /></td>   
     </tr>
     
      <tr>
         <td><form:label path="cPassword" style=" font-family:Comic Sans MS;">CONFIRM-PASSWORD</form:label></td>
         <td><form:input path="cPassword" STYLE="color: #000000; font-family:Comic Sans MS; " /><br><br></td>
+        <td><form:errors path="cPassword" class="err" /></td>
     </tr>
     
         
      <tr>
         <td><form:label path="address" style=" font-family:Comic Sans MS;">ADDRESS</form:label></td>
         <td><form:input path="address" STYLE="color: #000000; font-family:Comic Sans MS; " /><br><br></td>
+        <td><form:errors path="address" class="err" /></td>
     </tr>
     
     <tr>
         <td><form:label path="phone" style=" font-family:Comic Sans MS;">PHONE</form:label></td>
         <td><form:input path="phone" STYLE="color: #000000; font-family:Comic Sans MS; " /><br><br></td>
+        <td><form:errors path="phone" class="err" /></td>
     </tr>
     
     <tr>

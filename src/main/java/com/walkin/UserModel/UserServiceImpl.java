@@ -38,5 +38,13 @@ public class UserServiceImpl implements UserService
 		// TODO Auto-generated method stub
 		return false;
 	}
+
+	/*public boolean checkLogin(String username, String password) {
+		       System.out.println("In Service class...Check Login");
+		        return udao.checkLogin(username, password);
+		 }*/
+	}
+    
+   
 	
-}
+

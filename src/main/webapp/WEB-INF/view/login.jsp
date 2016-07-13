@@ -48,6 +48,17 @@ input {
 
 }
 
+.error
+{
+padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #ff0000;;
+	background-color: #f2dede;
+	border-color: #ebccd1;
+}
+
 
 </style>
 <head>
@@ -62,6 +73,14 @@ body
     background-position:center;
     width:700px;
     height:400px;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
+input:valid {
+  border: 1px solid green;
 }
 
 </style>
@@ -82,8 +101,14 @@ body
 <br>
 <section class="login">
 <form  action="login" method="POST">
-<input path="username" name="username"  type="text"  placeholder="Username" data-icon="U" STYLE="color: #FFF8DC; font-family:Comic Sans MS; background-color:#000000 ;"/><br><br><br>
-<input path="password" name="password" type="password"  placeholder="Password" data-icon="x" STYLE="color: #FFF8DC; font-family:Comic Sans MS; background-color:#000000 ;"/ ><br><br>
+ <c:if test="${not empty error}">
+    <div class="error">${error}</div>
+       </c:if>
+<input path="username" name="username"  type="text"  placeholder="Username" data-icon="U" STYLE="color: #FFF8DC; font-family:Comic Sans MS; background-color:#000000 ;" /><br><br><br>
+<input path="password" name="password" type="password"  placeholder="Password" data-icon="x" STYLE="color: #FFF8DC; font-family:Comic Sans MS; background-color:#000000 ;"   / ><br><br>
+      
+       
+       
        <!--  <div class="olvido">
         	<div class="col"><a href="#" title="Ver Carásteres"><B>Register</B></a></div>
             <div class="col"><a href="#" title="Recuperar Password"><B>Fotgot Password?</B></a></div>

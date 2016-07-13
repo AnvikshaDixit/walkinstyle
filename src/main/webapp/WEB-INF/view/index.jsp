@@ -173,6 +173,8 @@ text-align:left;}
 					<li data-target="#myCarousel" data-slide-to="6"></li>
 					<li data-target="#myCarousel" data-slide-to="7"></li>
 					<li data-target="#myCarousel" data-slide-to="8"></li>
+					<li data-target="#myCarousel" data-slide-to="9"></li>
+					<li data-target="#myCarousel" data-slide-to="10"></li>
 				</ol>
 
 				<!-- Wrapper for slides -->
@@ -191,6 +193,17 @@ text-align:left;}
 						<img src="<c:url value='resources/img/p3.jpg'/>"
 							class="img-responsive img-rounded" width="400" height="400" />
 					</div>
+
+                      <div class="item">
+						<img src="<c:url value='resources/img/p2.jpg'/>"
+							class="img-responsive img-rounded" width="400" height="400" />
+					</div>
+					
+					<div class="item">
+						<img src="<c:url value='resources/img/m9.jpg'/>"
+							class="img-responsive img-rounded" width="400" height="400" />
+					</div>
+
 
 					<div class="item">
 						<img src="<c:url value='resources/img/p4.jpg'/>"
